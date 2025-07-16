@@ -1,3 +1,12 @@
+
+import streamlit as st
+import pickle
+import numpy as np
+
+
+
+
+
 # Title and subtitle
 st.markdown('<h1 class="main-title">🩺 Diabetes Risk Predictor</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Enter your health metrics below to assess your diabetes risk using advanced machine learning</p>', unsafe_allow_html=True)
